@@ -30,7 +30,8 @@
     <string:String x:Key="RunesTabText">RUNES</string:String>
     <string:String x:Key="StatsTabText">STATS</string:String>
     <string:String x:Key="BlankDetailMessageText">Select a replay on the left to begin</string:String>
-    <string:String x:Key="FailedToLoadReplayText">This replay could not be opened, the file may be corrupted.</string:String>
+    <string:String x:Key="General__PreviewItem__FailedToLoadText">Failed to load replay!</string:String>
+    <string:String x:Key="FailedToLoadReplayText">This replay could not be opened, the file may be corrupted. See below for more information:</string:String>
     <string:String x:Key="Victory">VICTORY</string:String>
     <string:String x:Key="BlueVictory">Blue Victory</string:String>
     <string:String x:Key="RedVictory">Red Victory</string:String>
@@ -54,7 +55,10 @@
     <string:String x:Key="General__GlobalExceptionHandler__Body">Unhandled exception occurred! Please check the logs directory for full details.</string:String>
 
     <string:String x:Key="Main__VanguardWarning__Title">Vanguard is running</string:String>
-    <string:String x:Key="Main__VanguardWarning__Body">ReplayBook is unable to play replays if Vanguard is running. Please exit Vanguard before trying to play replays.</string:String>
+    <string:String x:Key="Main__VanguardWarning__Body">ReplayBook is unable to play replays if Vanguard is running. Would you like ReplayBook to stop Vanguard?</string:String>
+    <string:String x:Key="Main__VanguardDisable__Title">Stopping Vanguard...</string:String>
+    <string:String x:Key="Main__VanguardPermissionsError__Title">Elevation Required</string:String>
+    <string:String x:Key="Main__VanguardPermissionsError__Body">ReplayBook requires elevation to disable Vanguard</string:String>
 
     <!--  Settings Window Text  -->
     <string:String x:Key="GeneralSettingsItemText">General</string:String>
